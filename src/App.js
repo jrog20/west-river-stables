@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 // import { connect } from 'react-redux';
 import HomeContainer from './containers/HomeContainer';
+import Bios from './components/Bios';
+
 // import { BrowserRouter as Router } from 'react-router-dom';
 // import Header from './components/Header';
 
@@ -14,6 +16,7 @@ class App extends Component {
           Render Header component here: West River Stables
         </header>
         <HomeContainer />
+        <Bios />
       </div>
     );
   }
