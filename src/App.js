@@ -1,19 +1,21 @@
 import React, { Component } from 'react';
+import './App.css';
 // import { connect } from 'react-redux';
+import NavBar from './components/NavBar';
+
 import HomeContainer from './containers/HomeContainer';
-import Bios from './components/Bios';
 import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import NavBar from './components/NavBar';
+import NotFound from './components/NotFound';
+
+import Bios from './components/Bios';
 
 // Switch allows only one route to show at a time
 import { Switch, Route } from 'react-router-dom';
 
+// Moved this to index.js
 // import { BrowserRouter as Router } from 'react-router-dom';
-// import Header from './components/Header';
-
-import './App.css';
 
 class App extends Component {
   render() {
@@ -22,13 +24,18 @@ class App extends Component {
         <header className="App-header">
           West River Stables
           <NavBar />
-          <Route exact path="/" component={HomeContainer} />
-          <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-          <Route path="/contact" component={Contact} />
+          <Switch>
+            <Route exact path="/" component={HomeContainer} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/services" component={Services} />
+            <Route exact path="/contact" component={Contact} />
+            <Route component={NotFound} />
+          </Switch>
         </header>
+        {/* Render BodyContainer Here */}
         <HomeContainer />
         <Bios />
+        {/* Render FooterContainer Here */}
       </div>
     );
   }
