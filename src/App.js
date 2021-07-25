@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 // import { connect } from 'react-redux';
 import NavBar from './components/NavBar';
+import FooterContainer from './containers/FooterContainer';
 
 import HomeContainer from './containers/HomeContainer';
 import About from './components/About';
@@ -30,7 +31,7 @@ class App extends Component {
           <Route component={NotFound} />
         </Switch>
         {/* Render BodyContainer Here */}
-        {/* <HomeContainer /> */}
+
         <Bios />
         {/* Render FooterContainer Here */}
       </div>
