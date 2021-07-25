@@ -33,7 +33,7 @@ class App extends Component {
           </Switch>
         </header>
         {/* Render BodyContainer Here */}
-        <HomeContainer />
+        {/* <HomeContainer /> */}
         <Bios />
         {/* Render FooterContainer Here */}
       </div>

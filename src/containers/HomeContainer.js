@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Header from '../components/Header'
+import Home from '../components/Home'
 // import { connect } from 'react-redux'
 
 class HomeContainer extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Home />
         {/* <HorseInput addHorse={this.props.addHorse}/>
         <Horses
           horses={this.props.horses}
