@@ -20,18 +20,15 @@ import { Switch, Route } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          West River Stables
-          <NavBar />
-          <Switch>
-            <Route exact path="/" component={HomeContainer} />
-            <Route exact path="/about" component={About} />
-            <Route exact path="/services" component={Services} />
-            <Route exact path="/contact" component={Contact} />
-            <Route component={NotFound} />
-          </Switch>
-        </header>
+      <div>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={HomeContainer} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/services" component={Services} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={NotFound} />
+        </Switch>
         {/* Render BodyContainer Here */}
         {/* <HomeContainer /> */}
         <Bios />
