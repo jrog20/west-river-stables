@@ -10,8 +10,6 @@ import Services from './components/Services';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 
-import Bios from './components/Bios';
-
 // Switch allows only one route to show at a time
 import { Switch, Route } from 'react-router-dom';
 
@@ -32,7 +30,6 @@ class App extends Component {
         </Switch>
         {/* Render BodyContainer Here */}
 
-        <Bios />
         {/* Render FooterContainer Here */}
       </div>
     );
