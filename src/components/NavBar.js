@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import './NavBar.css';
 
 function Navbar() {
@@ -30,11 +31,10 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             WRS 
-            <i class='fab fa-typo3' />
+            <i className='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            {/* Why is my hamburger menu not working? */}
-            hamburger menu<i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            {click ? <FaTimes /> : <FaBars />}
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
