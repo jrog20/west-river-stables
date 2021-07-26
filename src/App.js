@@ -32,6 +32,7 @@ class App extends Component {
           <Route component={NotFound} />
         </Switch>
         {/* Render BodyContainer Here */}
+          {/* No...the home container is rendering when the app is loaded to '/' already. */}
         {/* Render FooterContainer Here */}
       </div>
     );
