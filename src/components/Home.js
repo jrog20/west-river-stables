@@ -1,10 +1,10 @@
 import React from 'react';
-import lessoninfall from '../assets/images/lessoninfall.jpeg';
+import rainbow from '../assets/images/rainbow.jpeg';
 import './Home.css'
 
 function Home() {
   return (
-    <div className='background-image' style={{ backgroundImage: `url(${lessoninfall})` }} alt="Horse">
+    <div className='background-image' style={{ backgroundImage: `url(${rainbow})` }} alt="Horse">
     </div>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
 import rogerriding from '../assets/images/rogerriding.jpeg';
-// import './Login.css'
+import './Login.css'
 
 function Login() {
   return (
