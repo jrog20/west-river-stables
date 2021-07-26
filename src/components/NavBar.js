@@ -19,6 +19,7 @@ function Navbar() {
     }
   };
 
+  // Prevents Log-in Button from showing on refresh in middle of navbar
   useEffect(() => {
     showButton();
   }, []);

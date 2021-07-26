@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Home from '../components/Home'
+import HeroSection from '../components/HeroSection';
+
 // import { connect } from 'react-redux'
 
 class HomeContainer extends Component {
   render() {
     return (
       <div>
-        <Home />
+        <HeroSection />
         {/* <HorseInput addHorse={this.props.addHorse}/>
         <Horses
           horses={this.props.horses}

@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+import youngstudentshowing from '../assets/images/youngstudentshowing.jpeg';
+import './Contact.css'
 
-class Contact extends Component {
-  render() {
-    return (
-      <div>
-        This is the Contact Component
+function Contact() {
+  return (
+    <>
+      <h1>Contact Us</h1>
+      <div className='background-image' style={{ backgroundImage: `url(${youngstudentshowing})` }} alt="Horse">
       </div>
-    );
-  }
+    </>
+  );
 };
 
 export default Contact;
