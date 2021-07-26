@@ -1,6 +1,6 @@
 import React from 'react';
 import studentjumping from '../assets/images/studentjumping.jpeg';
-// import './Services.css'
+import './Services.css'
 
 function Services() {
   return (

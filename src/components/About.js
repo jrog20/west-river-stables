@@ -1,7 +1,7 @@
 import React from 'react';
 import driving2012 from '../assets/images/driving2012.jpeg';
 import Bios from './Bios';
-// import './About.css'
+import './About.css'
 
 function About() {
   return (
