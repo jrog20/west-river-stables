@@ -1,5 +1,5 @@
 import React from 'react';
-import fieldrogerdrivingwhite from '../assets/images/fieldrogerdrivingwhite.jpeg';
+// import fieldrogerdrivingwhite from '../assets/images/fieldrogerdrivingwhite.jpeg';
 import './HeroSection.css'
 import { Button } from './Button';
 import '../App.css';
@@ -24,7 +24,6 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
-            onClick={console.log('hey')}
           >
             ARROW RIGHT <i className='far fa-play-circle' />
           </Button>
