@@ -10,7 +10,7 @@ function HeroSection() {
     <div className='hero-container'>
       {/* <a href className='image' src={fieldrogerdrivingwhite} /> */}
         {/* <video src={fieldrogerdrivingwhite} autoPlay loop muted /> */}
-        <h1>WEST RIVER STABLES</h1>
+        {/* <h1>WEST RIVER STABLES</h1> */}
         <div className='hero-btns'>
           {/* buttons currently link to login - need to change to left and right arrow buttons for slideshow */}
           <Button
@@ -33,4 +33,3 @@ function HeroSection() {
 };
 
 export default HeroSection;
-

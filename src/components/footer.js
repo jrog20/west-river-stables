@@ -65,7 +65,7 @@ function Footer() {
               <i className='fab fa-typo3' />
             </Link>
           </div>
-          <small className='website-rights'>WRS © 2021</small>
+          <small className='website-rights'>WRS © 2021 | Designed and Developed by Jaime Rogstad</small>
           <div className='social-icons'>
             {/* Not working */}
             <Link
